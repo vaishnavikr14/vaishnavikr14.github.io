@@ -1,0 +1,148 @@
+#leaderboard{
+    margin: 0px;
+}
+#leader{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: #656CEC;
+    padding: 5px;
+    height: 90px;
+}
+
+#board{
+    position: absolute;
+    width: 1535px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #656CEC;
+    border-radius: 64px;
+}
+
+#line{
+    color: white;
+}
+.place{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: white;
+    background-color: rgba(186, 190, 255, 1);
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    text-align: center;
+    margin: 5px;
+
+}
+.placeface{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: white;
+    background-color: rgba(186, 190, 255, 1);
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    text-align: center;
+    border: 5px solid white;
+    margin: 5px;
+    
+
+}
+.nameinfo{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: white;
+    background-color: rgba(186, 190, 255, 1);
+    height: 25px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 4px;
+    margin: 5px;
+
+}
+.rank{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#rank123{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 25px;
+
+}
+.placeface1{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: white;
+    background-color: rgba(186, 190, 255, 1);
+    height: 170px;
+    width: 170px;
+    border-radius: 170px;
+    text-align: center;
+    border: 5px solid white;
+    margin: 5px;
+}
+.rank1{
+    margin-top:450px ;
+    display: flex;
+    align-items: center;
+    background-color:rgba(210, 212, 242, 1);
+    height: 80px;
+    justify-content: space-between;
+    
+}
+.place1{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.placeface2{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: white;
+    background-color: rgba(186, 190, 255, 1);
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    text-align: center;
+    border: 3px solid white;
+    margin: 30px;
+}
+.nameinfo1{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+    margin: 30px;
+    margin-right: 300px;
+}
+.otherranks{
+    display: flex;
+    align-items: center;
+}
+.rank5678{
+    display: flex;
+    background-color:rgba(210, 212, 242, 1);
+    margin-top: 10px;
+    height: 80px;
+    justify-content: space-between;
+}
+#face2,#face1,#face3,#face4,#face5,#face6,#face7,#face8{
+    border-radius: 50%;
+}
